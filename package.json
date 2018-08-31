@@ -1,0 +1,19 @@
+{
+  "name": "aw-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server",
+    "test": "npx aw chrome -c ./aw.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@after-work.js/aw": "^5.0.0-beta.7",
+    "@babel/core": "^7.0.0",
+    "babel-plugin-istanbul": "^5.0.1",
+    "live-server": "^1.2.0"
+  }
+}
