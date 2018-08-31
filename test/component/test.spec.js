@@ -1,7 +1,8 @@
-import '../../test';
+import test from '../../test';
 
 describe('aw-test', () => {
     it('should return true', () => {
-        expect(true).to.equal(true);
+        const bool = true;
+        expect(test.bool(bool)).to.equal(bool);
     })
 })
