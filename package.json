@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx live-server",
-    "test": "npx aw chrome -c ./aw.config.js"
+    "test": "npx aw"
   },
   "keywords": [],
   "author": "",
